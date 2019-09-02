@@ -32,7 +32,7 @@ img{
 }
 
 .home img{
-    width: 40%;
+    width: 50%;
     -webkit-filter: grayscale(100%) contrast(100%);
     filter: grayscale(100%) contrast(200%) brightness(60%);
 
