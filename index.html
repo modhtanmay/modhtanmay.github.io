@@ -10,8 +10,20 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    
+    <script>
+      function disableClick(){
+        document.onclick=function(event){
+          if (event.button == 2) {
+            alert('Right Click Message');
+            return false;
+          }
+        }
+      }
+    </script>
+    
   </head>
-  <body>
+  <body onLoad="disableClick()">
     <aside>
       <nav>
         <img src="assets/imgs/tanmay.jpg" alt="" />
